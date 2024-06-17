@@ -1,0 +1,101 @@
+Connecting to server localhost:8888
+Device interfaces:
+eth2
+eth1
+<-- Ready to process packets -->
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 16:36:c5:ef:6c:df
+	dl_dst: 00:00:00:00:00:02
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:02
+	dl_dst: 16:36:c5:ef:6c:df
+	nw_src: 10.0.2.102
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:02
+	dl_dst: 16:36:c5:ef:6c:df
+	nw_src: 10.0.2.102
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 16:36:c5:ef:6c:df
+	dl_dst: 00:00:00:00:00:02
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:02
+	dl_dst: 16:36:c5:ef:6c:df
+	nw_src: 10.0.2.102
+	nw_dst: 10.0.3.103
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 16:36:c5:ef:6c:df
+	dl_dst: 00:00:00:00:00:02
+	nw_src: 10.0.3.103
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 16:36:c5:ef:6c:df
+	dl_dst: 00:00:00:00:00:02
+	nw_src: 10.0.3.103
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:02
+	dl_dst: 16:36:c5:ef:6c:df
+	nw_src: 10.0.2.102
+	nw_dst: 10.0.3.103
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0

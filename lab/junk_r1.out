@@ -1,0 +1,743 @@
+Connecting to server localhost:8888
+Device interfaces:
+eth3	HWaddr 32:C8:2B:B6:60:B4
+	inet addr:10.0.102.1 Mask:255.255.255.0
+eth2	HWaddr 2E:E3:3D:A5:74:69
+	inet addr:10.0.100.1 Mask:255.255.255.0
+eth1	HWaddr 06:95:C5:AC:F4:D7
+	inet addr:10.0.1.1 Mask:255.255.255.0
+Loaded static route table
+-------------------------------------------------
+Destination	Gateway		Mask		Iface
+10.0.1.0 	0.0.0.0 	255.255.255.0 	eth1
+10.0.100.0 	0.0.0.0 	255.255.255.0 	eth2
+10.0.102.0 	0.0.0.0 	255.255.255.0 	eth3
+10.0.2.0 	10.0.100.2 	255.255.255.0 	eth2
+10.0.101.0 	10.0.100.2 	255.255.255.0 	eth2
+10.0.3.0 	10.0.102.3 	255.255.255.0 	eth3
+-------------------------------------------------
+<-- Ready to process packets -->
+*** -> Received packet: 
+	arp
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: ff:ff:ff:ff:ff:ff
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.1.1
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	arp
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.1.1
+*** -> Received packet: 
+	arp
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.1.1
+*** -> Received packet: 
+	arp
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.1.1
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.3.103
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	arp
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.102.3
+	nw_dst: 10.0.1.1
+*** -> Received packet: 
+	arp
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: ff:ff:ff:ff:ff:ff
+	nw_src: 10.0.102.3
+	nw_dst: 10.0.102.1
+*** -> Received packet: 
+	arp
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: ff:ff:ff:ff:ff:ff
+	nw_src: 10.0.102.3
+	nw_dst: 10.0.102.1
+*** -> Received packet: 
+	arp
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: ff:ff:ff:ff:ff:ff
+	nw_src: 10.0.102.3
+	nw_dst: 10.0.102.1
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: 32:c8:2b:b6:60:b4
+	nw_src: 10.0.102.3
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 3
+	icmp_code: 1
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: 32:c8:2b:b6:60:b4
+	nw_src: 10.0.3.103
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.3.103
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: 32:c8:2b:b6:60:b4
+	nw_src: 10.0.102.3
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 3
+	icmp_code: 1
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.3.103
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	arp
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 12:83:ba:e4:ff:53
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.100.2
+	nw_dst: 10.0.1.1
+*** -> Received packet: 
+	arp
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: d6:4c:32:e3:32:01
+	dl_dst: ff:ff:ff:ff:ff:ff
+	nw_src: 10.0.2.2
+	nw_dst: 10.0.100.1
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: 32:c8:2b:b6:60:b4
+	nw_src: 10.0.3.103
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 12:83:ba:e4:ff:53
+	dl_dst: 2e:e3:3d:a5:74:69
+	nw_src: 10.0.2.102
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 12:83:ba:e4:ff:53
+	dl_dst: 2e:e3:3d:a5:74:69
+	nw_src: 10.0.2.102
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: 32:c8:2b:b6:60:b4
+	nw_src: 10.0.3.103
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.3.103
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 12:83:ba:e4:ff:53
+	dl_dst: 2e:e3:3d:a5:74:69
+	nw_src: 10.0.2.102
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.3.103
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: 32:c8:2b:b6:60:b4
+	nw_src: 10.0.3.103
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 12:83:ba:e4:ff:53
+	dl_dst: 2e:e3:3d:a5:74:69
+	nw_src: 10.0.2.102
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: 32:c8:2b:b6:60:b4
+	nw_src: 10.0.3.103
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.3.103
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 12:83:ba:e4:ff:53
+	dl_dst: 2e:e3:3d:a5:74:69
+	nw_src: 10.0.2.102
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.3.103
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: 32:c8:2b:b6:60:b4
+	nw_src: 10.0.3.103
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 12:83:ba:e4:ff:53
+	dl_dst: 2e:e3:3d:a5:74:69
+	nw_src: 10.0.2.102
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: 32:c8:2b:b6:60:b4
+	nw_src: 10.0.3.103
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.3.103
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 12:83:ba:e4:ff:53
+	dl_dst: 2e:e3:3d:a5:74:69
+	nw_src: 10.0.2.102
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.3.103
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: 32:c8:2b:b6:60:b4
+	nw_src: 10.0.3.103
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 12:83:ba:e4:ff:53
+	dl_dst: 2e:e3:3d:a5:74:69
+	nw_src: 10.0.2.102
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: 32:c8:2b:b6:60:b4
+	nw_src: 10.0.3.103
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.3.103
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 12:83:ba:e4:ff:53
+	dl_dst: 2e:e3:3d:a5:74:69
+	nw_src: 10.0.2.102
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.3.103
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: 32:c8:2b:b6:60:b4
+	nw_src: 10.0.3.103
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 12:83:ba:e4:ff:53
+	dl_dst: 2e:e3:3d:a5:74:69
+	nw_src: 10.0.2.102
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.2.102
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: f2:46:9d:c1:a1:2a
+	dl_dst: 32:c8:2b:b6:60:b4
+	nw_src: 10.0.3.103
+	nw_dst: 10.0.1.101
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 8
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
+*** -> Received packet: 
+	ip
+	dl_vlan: untagged
+	dl_vlan_pcp: 0
+	dl_src: 00:00:00:00:00:01
+	dl_dst: 06:95:c5:ac:f4:d7
+	nw_src: 10.0.1.101
+	nw_dst: 10.0.3.103
+	nw_tos: 0
+	nw_proto: 1
+	icmp_type: 0
+	icmp_code: 0
+Handle IP packet
+Forward IP packet
